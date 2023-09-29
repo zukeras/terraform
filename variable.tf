@@ -3,3 +3,8 @@ variable "rg_name" {
     description = "grup name"
     default = "app_grp"
 }
+variable "location" {
+    type = string
+    description = "location"
+    default = "North Europe"
+}
